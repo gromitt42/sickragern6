@@ -1,0 +1,15 @@
+<Application resource-id="sickragern6"><!-- 'resource-id' must be AppName -->
+  <Name>SickRage for ReadyNas 6</Name><!-- Any desciptive name, upto 48 chars -->
+  <Author>TheWoollyBully</Author><!-- Authors name. upto 48 chars -->
+  <Version>0.0.1</Version><!-- Version -->
+  <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
+  <LaunchURL>http://localhost:7130/web/</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->
+  <ConfigURL>http://localhost:7130/web/config/</ConfigURL>
+  <InfoURL lang="en-us">https://github.com/TheWoollyBully/sickragern6/issues</InfoURL>
+  <SupportedSystype>RN314,RN316,RN516</SupportedSystype>
+  <ReservePort>7130</ReservePort>
+  <DebianPackage>sickragern6</DebianPackage>
+  <ServiceName>fvapp-sickragern6.service</ServiceName>
+  <Description lang="en-us">SickRage - Searches TheTVDB and TVRage for shows</Description>
+</Application>
+

@@ -1,0 +1,14 @@
+[Unit]
+Description=Service for SickRage
+After=apache2.service
+
+[Service]
+Type=forking
+ExecStart=/etc/init.d/sickragern6 start
+ExecStop=/etc/init.d/sickragern6 stop
+PIDFile=/var/run/sickragern6/sickragern6.pid
+#KillMode=process
+#Restart=always
+
+[Install]
+WantedBy=multi-user.target

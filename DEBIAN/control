@@ -1,0 +1,10 @@
+Package: sickragern6
+Version: 0.0.1
+Architecture: all
+Maintainer: TheWoollyBully
+Installed-Size: 16059
+Depends: python (>= 2.7), python-cheetah (>= 2.1), git-core (>=1.7), unrar-free (>=0.0.1), ca-certificates (>=6.2.2)
+Section: contrib
+Priority: extra
+Homepage: http://www.readynas.com
+Description: SickRage PVR

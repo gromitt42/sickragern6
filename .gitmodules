@@ -1,0 +1,3 @@
+[submodule "apps/sickragern6/web"]
+	path = apps/sickragern6/web
+	url = https://github.com/SiCKRAGETV/SickRage.git
